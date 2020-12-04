@@ -16,7 +16,7 @@ namespace HashTableProblem
                 key++;
             }
             Frequency frequency = new Frequency();
-            frequency.WordFrequency(hash);
+            frequency.Remove(hash, "avoidable");
         }
     }
 }
